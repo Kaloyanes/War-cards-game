@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31717.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "War cards", "War cards\War cards.csproj", "{45144EF8-B9EB-4166-9C01-8E8ED3A469DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45144EF8-B9EB-4166-9C01-8E8ED3A469DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45144EF8-B9EB-4166-9C01-8E8ED3A469DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45144EF8-B9EB-4166-9C01-8E8ED3A469DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45144EF8-B9EB-4166-9C01-8E8ED3A469DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9EC71CAB-F5E7-4063-8845-3750D82C050D}
+	EndGlobalSection
+EndGlobal
