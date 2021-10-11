@@ -1,22 +1,23 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Windows.Markup;
 
 namespace War_cards
 {
     public class Card
     {
-        private List<int> values = new List<int>()
-        {
-            2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
-        };
+        public Queue<int> cards = new Queue<int>();
 
-        public int GetCard()
+        public void AddCards()
         {
-            var rnd = new Random();
-            var random = rnd.Next(2, 14);
-            Console.WriteLine(random);
-            return values[random];
+            for (int i = 2; i <= 14; i++)
+            {
+                for (int j = 0; j < 4; j++)
+                {
+                    cards.Enqueue(i);   
+                }
+            }
         }
     }
 }
