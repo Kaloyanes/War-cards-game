@@ -15,6 +15,7 @@ namespace War_cards
         {
             var rnd = new Random();
             var random = rnd.Next(2, 14);
+            Console.WriteLine(random);
             return values[random];
         }
     }
